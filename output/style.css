@@ -1,0 +1,53 @@
+:root {
+    --myFont: 'Helvetica', sans-serif;
+    --ltBlue: #2199e8;
+    --dkBlue: #071063;
+    --dkRed: #8b0000;
+    --ltOrange: #f19b45;
+    --dkOrange: #d74215;
+    --ltPurp: #bb7ce4;
+    --dkPurp: #48074b;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.d-flex {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.card {
+    min-width: 30%;
+    font-family: var(--myFont);
+    font-weight: 400;
+    margin: 0.5em;
+    border: 1px solid var(--dkBlue);
+    box-shadow: 3px 3px 5px;
+}
+
+.card-header {
+    text-align: right;
+    background-color: var(--ltBlue);
+}
+
+.card-body {
+    font-size: 0.8em;
+}
+
+.fa-mug-hot {
+    color: var(--white);
+}
+
+.fa-glasses {
+    color: var(--white);
+}
+
+.fa-user-graduate {
+    color: var(--white);
+}
