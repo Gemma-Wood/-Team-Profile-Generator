@@ -29,6 +29,10 @@ This project is licensed under the MIT license.
 ## Tests
 
 Enter "jest" into the command line to check if the tests pass.
+
+To test the functionality of all classes, methods, and modules, run the following command within the terminal:
+
+npm run test
   
 ## Questions 
 
